@@ -1,2 +1,28 @@
 @charset "utf-8";
 
+/* style class */
+.d-none {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+.j-center {
+    justify-content: center;
+}
+
+.g1 {
+    gap: 1rem;
+}
+.g2 {
+    gap: 2rem;
+}
+.g3 {
+    gap: 3rem;
+}
+
