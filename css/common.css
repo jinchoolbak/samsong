@@ -69,6 +69,13 @@ header {
     font-weight: 900;
 }
 
+.header .logo {
+    width: 220px;
+}
+
+.header .kind {
+    width: 220px;
+}
 /* main */
 
 /* footer */
@@ -78,13 +85,22 @@ footer {
     position: relative;
 }
 
+.footer .texts {
+    font-size: 14px;
+    width: 320px;
+}
+
 .footer button {
     position: absolute;
     left: 48%;
     top: 0;
     border: 0;
     background: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.footer button i {
+    display: block;
 }
 
 .sns img {
