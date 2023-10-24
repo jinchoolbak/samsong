@@ -1,6 +1,123 @@
 /* carousel */
 .carousel {
-    background: url("../images/bg.png") no-repeat center / cover;
+    background: url("../images/c-bg.png") no-repeat center / cover;
     width: 1920px;
-    height: 500px;
+    height: 900px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 1rem;
+}
+
+.carousel h2 {
+    font-size: 5rem;
+    padding-top: 250px;
+}
+
+.carousel p {
+    width: 550px;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.carousel button {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: var(--primary-color);
+    color: white;
+}
+
+/* best */
+.best {
+    margin: 5rem 0;
+    position: relative;
+}
+
+.best h2,
+.best h3 {
+    margin-left: 4.5rem
+}
+
+.best li {
+    margin-top: 2rem;
+    background: var(--primary-color);
+    border-radius: 20px;
+}
+
+.best li p {
+    background: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.best button {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    font-size: 2rem;
+    padding: 1rem;
+    background: none;
+    border: 0;
+}
+
+/* signature */
+.signature {
+    position: relative;
+    margin: 5rem 0;
+}
+
+.signature h2,
+.signature h3 {
+    margin-left: 4.5rem
+}
+
+.signature li {
+    margin-top: 2rem;
+}
+
+.signature  .s-right img {
+    margin-top: 2rem;
+    width: 530px;
+    height: 648px;
+}
+
+.signature button {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    font-size: 1rem;
+    padding: 1rem;
+    background: none;
+    border: 0;
+}
+
+/* news */
+.news {
+    margin: 5rem 0;
+    padding: 0 4.8rem;
+    position: relative;
+}
+
+.news p {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+}
+
+.news span {
+    color: rgb(148, 10, 10);
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+.news button {
+    position: absolute;
+    top: 13%;
+    right: 6%;
+    font-size: 1.5rem;
+    background: none;
+    border: 0;
 }
