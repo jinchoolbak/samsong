@@ -1,6 +1,98 @@
+.h-title h2 {
+    margin: 5rem 0;
+    font-size: 3rem;
+}
+
+.h-title .line {
+    margin: 5rem auto;
+    border: 2px solid black;
+}
+
 /* history */
-.history h2 {
-    font-size: 2rem;
-    padding: 3rem;
-    border-bottom: 3px solid black;
+.history {
+    position: relative;
+    height: 3200px;
+}
+
+.history h3 {
+    font-size: 1.7rem;
+    padding-top: 110px;
+    padding-left: 420px;
+}
+
+.history p {
+    padding-top: 300px;
+    padding-left: 80px;
+    width: 400px;
+    font-weight: 600;
+}
+
+.h1 {
+    background: url("../images/h1.jpg") no-repeat;
+    position: absolute;
+    top: 0;
+    right: 5%;
+    width: 560px;
+    height: 595px;
+    box-shadow: 10px 10px 10px;
+    border: 1px solid black;
+}
+
+
+.h2 {
+    background: url("../images/h2.jpg") no-repeat;
+    width: 560px;
+    height: 595px;
+    position: absolute;
+    top: 595px;
+    left: 5%;
+    box-shadow: -10px 10px 10px;
+    border: 1px solid black;
+}
+
+.h3 {
+    background: url("../images/h3.jpg") no-repeat;
+    width: 560px;
+    height: 595px;
+    position: absolute;
+    top: 1190px;
+    right: 5%;
+    box-shadow: 10px 10px 10px;
+    border: 1px solid black;
+}
+
+.h4 {
+    background: url("../images/h4.jpg") no-repeat;
+    width: 560px;
+    height: 595px;
+    position: absolute;
+    top: 1785px;
+    left: 5%;
+    box-shadow: -10px 10px 10px;
+    border: 1px solid black;
+}
+
+.h5 {
+    background: url("../images/h5.jpg") no-repeat;
+    width: 560px;
+    height: 595px;
+    position: absolute;
+    top: 2380px;
+    right: 5%;
+    box-shadow: 10px 10px 10px;
+    border: 1px solid black;
+}
+
+.h1 i,
+.h3 i {
+    position: absolute;
+    top: 50%;
+    left: -75%;
+}
+
+.h2 i,
+.h4 i {
+    position: absolute;
+    top: 50%;
+    right: -75%;
 }
