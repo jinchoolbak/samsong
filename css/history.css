@@ -1,3 +1,4 @@
+/* history */
 .h-title h2 {
     margin: 5rem 0;
     font-size: 3rem;
@@ -5,10 +6,10 @@
 
 .h-title .line {
     margin: 5rem auto;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
-/* history */
+/* history-body*/
 .history {
     position: relative;
     height: 3200px;
@@ -24,6 +25,7 @@
     padding-top: 300px;
     padding-left: 80px;
     width: 400px;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
