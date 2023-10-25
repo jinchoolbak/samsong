@@ -93,7 +93,7 @@ footer {
 .footer button {
     position: absolute;
     left: 48%;
-    top: 0;
+    top: -20%;
     border: 0;
     background: none;
     font-size: 1.2rem;

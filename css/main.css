@@ -1,21 +1,31 @@
 /* carousel */
 .carousel {
-    background: url("../images/c-bg.png") no-repeat center / cover;
-    width: 1920px;
-    height: 900px;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     margin-top: 1rem;
+    position: relative;
+    height: 500px;
+}
+
+.carousel img {
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 20%;
+}
+
+.carousel .text {
+    padding-left: 10rem;
 }
 
 .carousel h2 {
-    font-size: 5rem;
-    padding-top: 250px;
+    font-size: 3rem;
+    padding-top: 100px;
 }
 
 .carousel p {
     width: 550px;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding-top: 1rem;
 }
 
