@@ -19,7 +19,8 @@ html {
 }
 
 :root {
-    --primary-color: #DE953F;
+    --primary-color: #ff9c2b;
+    --footer-color: #2d261e;
 }
 
 /* style class */
@@ -80,7 +81,8 @@ header {
 
 /* footer */
 footer {
-    background: var(--primary-color);
+    background: var(--footer-color);
+    color: white;
     height: 200px;
     position: relative;
 }
@@ -104,6 +106,6 @@ footer {
 }
 
 .sns img {
-    width: 50%;
+    width: 50px;
 }
 

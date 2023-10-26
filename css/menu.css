@@ -18,9 +18,12 @@
     margin: 5rem 0;
 }
 
-.t-title li {
-    border: 1px solid black;
+.t-title li:first-child {
     background: var(--primary-color);
+}
+.t-title li {
+    border-radius: 30px;
+    background: rgb(195, 195, 195);
     font-weight: 700;
     padding: 1rem;
 }
@@ -43,4 +46,41 @@
 .tabs p {
     padding-top: 40px;
     padding-left: 480px;
+}
+
+/* bd , cj*/
+.bd-title,
+.cj-title {
+    margin: 5rem 0;
+}
+
+.bd-body,
+.cj-body {
+    height: 400px;
+}
+
+.bd-body i,
+.cj-body i {
+    line-height: 250px;
+}
+
+.bd-body li,
+.cj-body li {
+    text-align: center;
+}
+
+.bd-body li img {
+    background: var(--primary-color);
+    border-radius: 50%;
+    padding: 1rem;
+    width: 220px;
+    height: 200px;
+}
+
+.cj-body li img {
+    background: var(--primary-color);
+    border-radius: 50%;
+    padding: 1rem;
+    width: 220px;
+    height: 200px;
 }
