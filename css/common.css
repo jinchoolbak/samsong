@@ -18,9 +18,11 @@ html {
     scroll-behavior: smooth;
 }
 
+
 :root {
-    --primary-color: #ff9c2b;
-    --footer-color: #2d261e;
+    --primary-color: #E09D40;
+    --footer-color: #5A4130;
+    --bg-color: #F8D27F;
 }
 
 /* style class */
@@ -83,13 +85,22 @@ header {
 footer {
     background: var(--footer-color);
     color: white;
-    height: 200px;
+    height: 160px;
     position: relative;
 }
 
+.footer {
+    padding-top: 1rem;
+}
+
 .footer .texts {
+    margin-top: .5rem;
     font-size: 14px;
     width: 320px;
+}
+
+.footer .copy {
+    margin-top: .5rem;
 }
 
 .footer button {

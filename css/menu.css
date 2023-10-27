@@ -1,3 +1,7 @@
+body {
+    background: var(--bg-color);
+}
+
 /* menu */
 .m-title h2 {
     margin: 5rem 0;
@@ -9,9 +13,13 @@
     border: 1px solid black;
 }
 /* tabs */
+.s-title {
+    font-size: 1.4rem;
+}
+
 .tabs {
     position: relative;
-    height: 600px;
+    height: 700px;
 }
 
 .t-title {
@@ -21,43 +29,49 @@
 .t-title li:first-child {
     background: var(--primary-color);
 }
+
 .t-title li {
     border-radius: 30px;
-    background: rgb(195, 195, 195);
-    font-weight: 700;
+    background: white;
+    font-weight: 900;
     padding: 1rem;
 }
 
 /* tabs-body */
 .t-body1 {
-    background: url("../images/sig1.png") no-repeat;
-    height: 350px;
+    background: url("../images/sig1.png") no-repeat left;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    width: 730px;
+    height: 500px;
     position: absolute;
-    top: 20%;
-    left: 23%;
+    top: 10%;
+    left: 24%;
     margin-top: 3rem;
 }
 
 .tabs h4 {
-    padding-top: 40px;
-    padding-left: 480px;
+    padding-top: 180px;
+    padding-left: 440px;
 }
 
 .tabs p {
     padding-top: 40px;
-    padding-left: 480px;
+    padding-left: 440px;
 }
 
 /* bd , cj*/
 .bd-title,
 .cj-title {
     margin: 5rem 0;
+    font-size: 1.4rem;
 }
 
 .bd-body,
 .cj-body {
     height: 400px;
 }
+
 
 .bd-body i,
 .cj-body i {
@@ -81,6 +95,12 @@
     background: var(--primary-color);
     border-radius: 50%;
     padding: 1rem;
-    width: 220px;
+    width: 230px;
     height: 200px;
+}
+
+.bd-body p,
+.cj-body p {
+    margin-top: .5rem;
+    font-weight: 600;
 }
