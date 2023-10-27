@@ -1,11 +1,7 @@
-body {
-    background: var(--bg-color);
-}
-
 /* carousel */
 .carousel {
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     margin-top: 1rem;
     position: relative;
     height: 500px;

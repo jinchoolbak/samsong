@@ -1,9 +1,5 @@
-body {
-    background: var(--bg-color);
-}
-
 /* history */
-.h-title h2 {
+.h-title {
     margin: 5rem 0;
     font-size: 3rem;
 }

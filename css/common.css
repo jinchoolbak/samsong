@@ -25,6 +25,10 @@ html {
     --bg-color: #F8D27F;
 }
 
+body {
+    background: var(--bg-color);
+}
+
 /* style class */
 .d-none {
     display: none;
