@@ -22,6 +22,7 @@ html {
 :root {
     --primary-color: #E09D40;
     --footer-color: #5A4130;
+    --ftext-color: rgb(243, 243, 243);
     --bg-color: #F8D27F;
 }
 
@@ -59,6 +60,10 @@ body {
     text-align: center;
 }
 
+.t-red {
+    color: rgb(190, 37, 37);
+}
+
 .container {
     max-width: 1400px;
     margin: 0 auto;
@@ -84,6 +89,10 @@ header {
     width: 220px;
 }
 
+.header .kind p:hover {
+    color: var(--bg-color);
+}
+
 /* nav */
 #gnb {
     position: relative;
@@ -94,24 +103,35 @@ header {
     display: none;
     z-index: 9999;
     position: absolute;
-    top: 40%;
+    top: 65%;
+}
+
+#gnb li:hover {
+    color: var(--bg-color);
 }
 
 #gnb li:hover #lnb {
     display: block;
 }
 
-#lnb li a {
+#lnb li {
     background: var(--footer-color);
-    color: white;
-    padding: .6rem;
     font-size: .9rem;
+    height: 40px;
+    width: 75px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+
+#lnb li:hover {
+    color: var(--bg-color);
 }
 
 /* footer */
 footer {
     background: var(--footer-color);
-    color: white;
+    color: var(--ftext-color);
     height: 160px;
     position: relative;
 }
@@ -137,6 +157,10 @@ footer {
     border: 0;
     background: none;
     font-size: 1rem;
+}
+
+.footer button:hover {
+    color: white;
 }
 
 .footer button i {

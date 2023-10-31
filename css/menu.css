@@ -27,6 +27,7 @@
 .t-title {
     margin: 5rem 0;
     position: relative;
+    font-size: 1.2rem;
 }
 
 .t-title li:first-child {
@@ -45,28 +46,30 @@
     background: url("../images/sig1.png") no-repeat left;
     background-color: var(--primary-color);
     border-radius: 50%;
-    width: 730px;
+    width: 800px;
     height: 500px;
     position: absolute;
     top: 10%;
-    left: 24%;
+    left: 21%;
     margin-top: 3rem;
 }
 
 .tabs h4 {
     padding-top: 180px;
-    padding-left: 440px;
+    padding-left: 460px;
+    font-size: 1.2rem;
 }
 
 .tabs p {
     padding-top: 40px;
-    padding-left: 440px;
+    padding-left: 460px;
+    font-weight: 600;
 }
 
 /* bd , cj*/
 .bd-title,
 .cj-title {
-    margin: 5rem 0;
+    margin: 4rem 0;
     font-size: 1.4rem;
     font-weight: 800;
     position: relative;
@@ -96,6 +99,7 @@
 .bd-body li,
 .cj-body li {
     text-align: center;
+    font-weight: 700;
 }
 
 .bd-body li img {
