@@ -69,6 +69,7 @@
 
 .best li img {
     background-color: var(--primary-color);
+    border-radius: 20px;
     width: 400px;
     height: 400px;
 }
@@ -96,6 +97,7 @@
 
 .best li:hover {
     border: 1px solid black;
+    border-radius: 20px;
 }
 
 .best li:hover .price { 
@@ -134,20 +136,34 @@
     margin-top: 5rem;
 }
 
-.signature .s-left img {
-    opacity: 50%;
-
-}
-
 .signature  .s-right img {
     margin-top: 5rem;
     width: 530px;
     height: 613px;
-    opacity: 50%;
 }
 
-.signature img:hover {
-    opacity: 100%;
+.signature li {
+    height: 300px;
+    position: relative;
+}
+
+.signature li:hover {
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.signature li:hover img {
+    opacity: 30%;
+}
+
+.signature .ex {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.signature li:hover .ex {
+   display: block;
 }
 
 .signature button {
