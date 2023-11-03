@@ -132,18 +132,17 @@
     font-size: 1.7rem;
 }
 
+/* s-left------------- */
 .signature .s-left {
     margin-top: 5rem;
 }
 
-.signature  .s-right img {
-    margin-top: 5rem;
-    width: 530px;
-    height: 613px;
+.signature .s-left ul:nth-child(2) {
+    margin-top: 1.5rem;
 }
 
 .signature li {
-    height: 300px;
+    height: 305px;
     position: relative;
 }
 
@@ -163,8 +162,38 @@
 }
 
 .signature li:hover .ex {
-   display: block;
+    display: block;
+    font-weight: 600;
 }
+
+/* s-right------------- */
+.signature .s-right {
+    margin-top: 5rem;
+    width: 560px;
+    height: 630px;
+    position: relative;
+}
+
+.signature .s-right:hover {
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.signature .s-right:hover img {
+    opacity: 30%;
+}
+
+.signature .exr {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.signature .s-right:hover .exr {
+    display: block;
+    font-weight: 600;
+}
+
 
 .signature button {
     position: absolute;
