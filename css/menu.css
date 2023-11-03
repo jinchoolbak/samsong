@@ -43,7 +43,57 @@
 
 /* tabs-body */
 .t-body1 {
-    background: url("../images/sig1.png") no-repeat left;
+    background: url("../images/sig1.png") no-repeat;
+    background-position: 10%;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 10%;
+    left: 21%;
+    margin-top: 3rem;
+}
+
+.t-body2 {
+    background: url("../images/sig2.png") no-repeat;
+    background-position: 10%;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 10%;
+    left: 21%;
+    margin-top: 3rem;
+}
+.t-body3 {
+    background: url("../images/sig3.png") no-repeat;
+    background-position: 10%;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 10%;
+    left: 21%;
+    margin-top: 3rem;
+}
+.t-body4 {
+    background: url("../images/sig4.png") no-repeat;
+    background-position: 10%;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 10%;
+    left: 21%;
+    margin-top: 3rem;
+}
+.t-body5 {
+    background: url("../images/sig5.png") no-repeat;
+    background-position: 10%;
     background-color: var(--primary-color);
     border-radius: 50%;
     width: 800px;
@@ -56,14 +106,28 @@
 
 .tabs h4 {
     padding-top: 180px;
-    padding-left: 460px;
     font-size: 1.2rem;
 }
 
 .tabs p {
     padding-top: 40px;
-    padding-left: 460px;
     font-weight: 600;
+}
+
+.t-body1 h4,
+.t-body1 p, 
+.t-body2 h4,
+.t-body2 p, 
+.t-body3 h4,
+.t-body3 p {
+    padding-left: 460px;
+}
+
+.t-body4 h4,
+.t-body4 p,
+.t-body5 h4,
+.t-body5 p {
+    padding-left: 500px;
 }
 
 /* bd , cj*/
