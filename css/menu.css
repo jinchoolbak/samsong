@@ -90,6 +90,44 @@
     height: 400px;
 }
 
+.bd-body li,
+.cj-body li {
+    height: 230px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.bd-body li:hover,
+.cj-body li:hover {
+   border: 1px solid black;
+}
+
+.bd-body li:hover img,
+.cj-body li:hover img {
+    opacity: 30%;
+}
+
+.bd-body li .price {
+    font-size: 0.8rem;
+    line-height: 25px;
+    position: absolute;
+    top: 35%;
+}
+
+
+.cj-body li .price {
+    font-size: 0.8rem;
+    line-height: 25px;
+    position: absolute;
+    top: 60%;
+    left: 27%;
+}
+
+.bd-body li:hover .price,
+.cj-body li:hover .price {
+    display: block;
+}
+
 
 .bd-body i,
 .cj-body i {
@@ -114,8 +152,8 @@
     background: var(--primary-color);
     border-radius: 50%;
     padding: 1rem;
-    width: 230px;
-    height: 220px;
+    width: 220px;
+    height: 200px;
 }
 
 .bd-body p,
