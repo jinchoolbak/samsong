@@ -102,12 +102,14 @@ header {
     position: relative;
 }
 
-
 #lnb {
     display: none;
     z-index: 9999;
     position: absolute;
-    top: 65%;
+    top: 70%;
+    background: var(--bg-color);
+    width: 75px;
+    height: 100px;
 }
 
 #gnb li:hover {
@@ -119,17 +121,19 @@ header {
 }
 
 #lnb li {
-    background: var(--footer-color);
     font-size: .9rem;
     height: 40px;
     width: 75px;
     line-height: 40px;
     text-align: center;
-    color: white;
+    color: var(--footer-color);
 }
 
 #lnb li:hover {
-    color: var(--bg-color);
+    width: 70px;
+    margin: 0 auto;
+    border-bottom: 2px solid var(--footer-color);
+    color: black;
 }
 
 /* footer */
@@ -156,7 +160,7 @@ footer {
 
 .footer button {
     position: absolute;
-    left: 50%;
+    left: 48%;
     top: -25%;
     border: 0;
     background: none;
