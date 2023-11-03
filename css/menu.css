@@ -178,12 +178,27 @@
     top: 35%;
 }
 
+.bd-body li:nth-child(1) .price {
+    top: 30%;
+    left: 18%;
+}
+.bd-body li:nth-child(2) .price {
+    left: 16%;
+}
+.bd-body li:nth-child(3) .price {
+    left: 8%;
+}
+.bd-body li:nth-child(4) .price {
+    left: 10%;
+}
+
+
 
 .cj-body li .price {
     font-size: 0.8rem;
     line-height: 25px;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 27%;
 }
 

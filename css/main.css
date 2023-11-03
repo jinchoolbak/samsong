@@ -156,6 +156,7 @@
 }
 
 .signature .ex {
+    font-size: 1.7rem;
     position: absolute;
     top: 35%;
     left: 10%;
@@ -184,6 +185,7 @@
 }
 
 .signature .exr {
+    font-size: 2rem;
     position: absolute;
     top: 35%;
     left: 10%;
